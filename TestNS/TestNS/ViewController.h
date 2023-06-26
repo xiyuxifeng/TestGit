@@ -21,3 +21,6 @@
 // test2 after  meger2
 @end
 
+// git merge --abort git merge --abort git merge --abort
+// git merge --abort git merge --abort git merge --abort
+// git merge --abort git merge --abort git merge --abort
