@@ -5,6 +5,23 @@
 //  Created by 王辉 on 2021/4/14.
 //
 
+/*
+ * File: /Users/wanghui/Desktop/TestGit/TestNS/TestNS/add_file1
+ * Project: /Users/wanghui/Desktop/TestGit/TestNS/TestNS
+ * Created Date: Monday, June 26th 2023, 8:51:42 pm
+ * Author: Wang Hui
+ * -----
+ * Last Modified: Mon Jun 26 2023
+ * Modified By: Wang Hui
+ * -----
+ * Copyright (c) 2023 WH
+ *
+ * All shall be well and all shall be well and all manner of things shall be well.
+ * We're doomed!
+ */
+
+
+
 #import "AppDelegate.h"
 
 @interface AppDelegate ()
@@ -17,6 +34,23 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
     return YES;
+
+    /*
+ * File: /Users/wanghui/Desktop/TestGit/TestNS/TestNS/add_file1
+ * Project: /Users/wanghui/Desktop/TestGit/TestNS/TestNS
+ * Created Date: Monday, June 26th 2023, 8:51:42 pm
+ * Author: Wang Hui
+ * -----
+ * Last Modified:
+ * Modified By:
+ * -----
+ * Copyright (c) 2023 WH
+ *
+ * All shall be well and all shall be well and all manner of things shall be well.
+ * We're doomed!
+ */
+
+
 }
 
 

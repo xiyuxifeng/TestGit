@@ -25,6 +25,7 @@
     // This delegate does not imply the connecting scene or session are new (see `application:configurationForConnectingSceneSession` instead).
 
 
+<<<<<<< HEAD
 
 +++++++++++++++
 
@@ -54,6 +55,19 @@
 ============
 
 
+=======
+self.timer = [NSTimer scheduledTimerWithTimeInterval:1 target:self selector:@selector(timerInvoked:) userInfo:NULL repeats:YES];
+
+    __weak ViewController2 *weakSelf = self;
+
+    UIButton *btn = [UIButton buttonWithType: UIButtonTypeSystem primaryAction: [UIAction actionWithHandler:^(__kindof UIAction * _Nonnull action) {
+        [weakSelf dismissViewControllerAnimated: YES completion:NULL];
+    }]];
+
+    btn.backgroundColor = UIColor.redColor;
+    btn.frame = CGRectMake(200, 200, 200, 200);
+    [self.view addSubview:btn];
+>>>>>>> 9a6747b9cbc6ef2777c0169e7ef81c2ba50c5e65
 }
 
 
@@ -69,6 +83,7 @@
     // The scene may re-connect later, as its session was not necessarily discarded (see `application:didDiscardSceneSessions` instead).
 
 
+<<<<<<< HEAD
 ============
 
 // Called as the scene is being released by the system.
@@ -84,6 +99,19 @@
 ============
 
 
+=======
+self.timer = [NSTimer scheduledTimerWithTimeInterval:1 target:self selector:@selector(timerInvoked:) userInfo:NULL repeats:YES];
+
+    __weak ViewController2 *weakSelf = self;
+
+    UIButton *btn = [UIButton buttonWithType: UIButtonTypeSystem primaryAction: [UIAction actionWithHandler:^(__kindof UIAction * _Nonnull action) {
+        [weakSelf dismissViewControllerAnimated: YES completion:NULL];
+    }]];
+
+    btn.backgroundColor = UIColor.redColor;
+    btn.frame = CGRectMake(200, 200, 200, 200);
+    [self.view addSubview:btn];
+>>>>>>> 9a6747b9cbc6ef2777c0169e7ef81c2ba50c5e65
 }
 
 
@@ -96,6 +124,18 @@
 
     // Called when the scene has moved from an inactive state to an active state.
     // Use this method to restart any tasks that were paused (or not yet started) when the scene was inactive.
+
+    self.timer = [NSTimer scheduledTimerWithTimeInterval:1 target:self selector:@selector(timerInvoked:) userInfo:NULL repeats:YES];
+
+    __weak ViewController2 *weakSelf = self;
+
+    UIButton *btn = [UIButton buttonWithType: UIButtonTypeSystem primaryAction: [UIAction actionWithHandler:^(__kindof UIAction * _Nonnull action) {
+        [weakSelf dismissViewControllerAnimated: YES completion:NULL];
+    }]];
+
+    btn.backgroundColor = UIColor.redColor;
+    btn.frame = CGRectMake(200, 200, 200, 200);
+    [self.view addSubview:btn];
 }
 
 
