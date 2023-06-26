@@ -9,6 +9,16 @@
 
 @interface SceneDelegate ()
 
+// after  meger
+
+// after  meger
+// after  meger
+// after  meger
+// after  meger
+// after  meger
+// after  meger
+
+
 @end
 
 @implementation SceneDelegate
@@ -25,7 +35,6 @@
     // This delegate does not imply the connecting scene or session are new (see `application:configurationForConnectingSceneSession` instead).
 
 
-<<<<<<< HEAD
 
 +++++++++++++++
 
@@ -67,7 +76,6 @@ self.timer = [NSTimer scheduledTimerWithTimeInterval:1 target:self selector:@sel
     btn.backgroundColor = UIColor.redColor;
     btn.frame = CGRectMake(200, 200, 200, 200);
     [self.view addSubview:btn];
->>>>>>> 9a6747b9cbc6ef2777c0169e7ef81c2ba50c5e65
 }
 
 
@@ -83,7 +91,6 @@ self.timer = [NSTimer scheduledTimerWithTimeInterval:1 target:self selector:@sel
     // The scene may re-connect later, as its session was not necessarily discarded (see `application:didDiscardSceneSessions` instead).
 
 
-<<<<<<< HEAD
 ============
 
 // Called as the scene is being released by the system.
@@ -111,7 +118,6 @@ self.timer = [NSTimer scheduledTimerWithTimeInterval:1 target:self selector:@sel
     btn.backgroundColor = UIColor.redColor;
     btn.frame = CGRectMake(200, 200, 200, 200);
     [self.view addSubview:btn];
->>>>>>> 9a6747b9cbc6ef2777c0169e7ef81c2ba50c5e65
 }
 
 
