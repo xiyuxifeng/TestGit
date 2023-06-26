@@ -48,6 +48,19 @@
 //    [[NSRunLoop mainRunLoop] addTimer:self.timer forMode:NSRunLoopCommonModes];
 
     // add test 2...
+
+
+=====================
+__weak ViewController2 *weakSelf = self;
+
+    UIButton *btn = [UIButton buttonWithType: UIButtonTypeSystem primaryAction: [UIAction actionWithHandler:^(__kindof UIAction * _Nonnull action) {
+        [weakSelf dismissViewControllerAnimated: YES completion:NULL];
+    }]];
+
+    btn.backgroundColor = UIColor.redColor;
+    btn.frame = CGRectMake(200, 200, 200, 200);
+    [self.view addSubview:btn];
+=====================
 }
 
 
