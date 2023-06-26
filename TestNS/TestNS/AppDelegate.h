@@ -9,7 +9,12 @@
 
 @interface AppDelegate : UIResponder <UIApplicationDelegate>
 
-// test add =======
-// test add =======
 
 @end
+
+//
+//  AppDelegate.h
+//  TestNS
+//
+//  Created by 王辉 on 2021/4/14.
+//
