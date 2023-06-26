@@ -9,14 +9,6 @@
 
 @interface TestNSTests : XCTestCase
 
-// test2 after  meger2
-// test2 after  meger2
-// test2 after  meger2
-// test2 after  meger2
-// test2 after  meger2
-// test2 after  meger2
-// test2 after  meger2
-
 @end
 
 @implementation TestNSTests

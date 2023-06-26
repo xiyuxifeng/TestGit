@@ -10,14 +10,6 @@
 
 @interface ViewController ()
 
-// after  meger
-// after  meger
-// after  meger
-// after  meger
-// after  meger
-// after  meger
-// after  meger
-
 
 
 @end
@@ -46,13 +38,6 @@
     // add test 2...
 
 
-
-============
-__weak ViewController *weakSelf = self;
-    UIButton *btn = [UIButton buttonWithType: UIButtonTypeSystem primaryAction: [UIAction actionWithHandler:^(__kindof UIAction * _Nonnull action) {
-        UIViewController *vc = [ViewController2 new];
-        [weakSelf presentViewController:vc animated: YES completion:NULL];
-=======
 self.timer = [NSTimer scheduledTimerWithTimeInterval:1 target:self selector:@selector(timerInvoked:) userInfo:NULL repeats:YES];
 
     __weak ViewController2 *weakSelf = self;
@@ -75,8 +60,6 @@ self.timer = [NSTimer scheduledTimerWithTimeInterval:1 target:self selector:@sel
     btn.backgroundColor = UIColor.redColor;
     btn.frame = CGRectMake(200, 200, 200, 200);
     [self.view addSubview:btn];
-============
-=======
 
 
 }
